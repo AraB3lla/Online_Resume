@@ -1,0 +1,449 @@
+html,
+
+
+
+body {
+    margin: 0;
+    width: 100%;
+    min-width: 25%;
+    font-family: Poppins;
+    color: white;
+    background-color: #000;
+}
+
+/* Beginng of navBar */
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+nav.blue ul {
+    background: rgb(2, 118, 122);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media(max-width:400px) {
+
+    nav ul {
+        max-height: 5px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: rgb(2, 118, 122);
+    }
+
+    .showing {
+        max-height: 6em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+
+}
+
+/* End of NavBar */
+
+
+
+/* header for other */
+header {
+    width: 100%;
+    height: 40px;
+    background-size: cover;
+    margin: 0%;
+}
+
+/* header for index */
+#cover-img {
+    width: 100%;
+    height: 100vh;
+    background: url("images/galaxie.jpg") center;
+    background-size: cover;
+    margin: 0%;
+}
+
+/* Heading for the my name */
+#heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 0;
+    width: 85%;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+/* Automated typing */
+.nerdy-pen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+
+}
+
+
+
+/* Download button */
+
+.downButton {
+    display: inline-block;
+    padding: 10px;
+    border: 0.06em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+
+}
+
+a.downButton:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+/* End of Download button*/
+
+/* beginning of skills %Bar */
+.whole {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+
+}
+
+.HTML {
+    width: 90%;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: black;
+    background-color: #1dd3fa;
+    text-align: center;
+}
+
+.CSS {
+    width: 75%;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: black;
+    background-color: #1dd3fa;
+    text-align: center;
+}
+
+.JS {
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: black;
+    background-color: #1dd3fa;
+    text-align: center;
+}
+
+.PHP {
+    width: 65%;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: black;
+    background-color: #1dd3fa;
+    text-align: center;
+}
+
+.SQL {
+    width: 60%;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: black;
+    background-color: #1dd3fa;
+    text-align: center;
+}
+
+/* end of skills %bar */
+
+/* Projects Gallery */
+
+div.gallery {
+    margin-right: 20px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 280px;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-container {
+    margin-right: 50px;
+    margin-left: 0;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+/* end of Projects Gallery */
+
+/* Education and experiance section */
+
+.edu-container {
+    width: 50%;
+    padding: 0px;
+    float: right;
+}
+
+.exp-container {
+    width: 50%;
+    padding: 0px;
+    float: left;
+}
+
+
+.exp {
+    padding-left: 20px;
+}
+
+.exp-content {
+    padding-left: 20px;
+}
+
+/* End of Education and experiance section */
+
+/* Beginning of about me Section */
+#About-img {
+    width: 50%;
+    height: 100vh;
+    background: url("images/m4.jpg") center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    float: left;
+}
+
+.about-me {
+    margin: 140px;
+}
+
+@media(max-width:400px) {
+    #About-img {
+        width: 10%;
+        padding: 5px;
+        height: 50vh;
+        background: url("images/m4.jpg") center;
+        background-repeat: no-repeat;
+        margin: 5px;
+        float: left;
+    }
+
+    .about-me {
+        margin: 0px;
+    }
+
+}
+
+
+/* End of about me section */
+
+/* footer */
+footer {
+    text-align: center;
+
+}
+
+.footer-me {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-me2 {
+    text-align: center;
+    margin-top: 50%;
+}
+
+/* Social media icons */
+
+textarea {
+    resize: none;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+
+
+.svg-inline--fa {
+    vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+    text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fab fa-github,
+.fa-linkedin {
+    font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.github {
+    background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.github:hover,
+.rounded-social-buttons .social-button.github:focus {
+    color: #3b5998;
+    background: #999898;
+    border-color: #3b5998;
+}
+
+
+.rounded-social-buttons .social-button.linkedin {
+    background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+}
+
+/* end of footer */
+
+
+
+@media(max-width: 900px) {
+    #me {
+        float: right;
+        padding: 0px 20px 20px 20px;
+    }
+
+    div.gallery {
+        margin-right: 3px;
+        margin-left: 3px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 190px;
+    }
+
+    .gallery-container {
+        margin-right: 5px;
+        margin-left: 10px;
+
+    }
+
+
+
+    @media(max-width: 600px) {
+        #me {
+            float: right;
+            padding: 0px 20px 20px 20px;
+        }
+    }
+}
