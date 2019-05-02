@@ -85,7 +85,7 @@ header {
 #cover-img {
     width: 100%;
     height: 100vh;
-    background: url("images/galaxie.jpg") center;
+    background: url("Images/galaxie.jpg") center;
     background-size: cover;
     margin: 0%;
 }
@@ -286,7 +286,7 @@ div.desc {
 #About-img {
     width: 50%;
     height: 100vh;
-    background: url("images/m4.jpg") center;
+    background: url("Images/m4.jpg") center;
     background-repeat: no-repeat;
     margin: 20px;
     float: left;
@@ -301,7 +301,7 @@ div.desc {
         width: 10%;
         padding: 5px;
         height: 50vh;
-        background: url("images/m4.jpg") center;
+        background: url("Images/m4.jpg") center;
         background-repeat: no-repeat;
         margin: 5px;
         float: left;
