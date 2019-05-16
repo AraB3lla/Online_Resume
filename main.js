@@ -72,3 +72,17 @@ window.onload = function () {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+$('.box1').on('click', function () {
+  $('.box5').fadeToggle("slow");
+});
+
+$(document).ready(function () {
+  $(".edu").click(function () {
+    $(".edu-content").slideToggle("");
+  });
+});
+$(document).ready(function () {
+  $(".exp").click(function () {
+    $(".exp-content").slideToggle("");
+  });
+});
