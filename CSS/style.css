@@ -344,6 +344,10 @@ Remove or comment-out the code block below to see how the browser will fall-back
     font-size: 15px;
 }
 
+.edu-exp h3 {
+    padding: 5px;
+}
+
 .edu {
 
     background: rgb(2, 118, 122);
